@@ -7,7 +7,7 @@ void update(int *a,int *b) {
     t = t - *b;
     *b = t > 0 ?(t):(-t);   
 }
-
+extern int sum(int a, int b);
 int main() {
     int a, b;
     int *pa = &a, *pb = &b;
