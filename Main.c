@@ -14,6 +14,8 @@ int main() {
     
     scanf("%d %d", &a, &b);
     update(pa, pb);
+    int c = sum(a, b);
+    printf("sum of %d and %d is %d\n", a,b,c);
     printf("%d\n%d", a, b);
 
     return 0;
